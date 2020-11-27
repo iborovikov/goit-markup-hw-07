@@ -4,13 +4,17 @@
 .duty-title {
   padding-bottom: 50px;
 }
-.duty-list .item:not(:last-child) {
-  margin-right: 30px;
+.duty-list {
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.duty-list .item {
-  position: relative;
-  z-index: 10;
+.duty-list {
+  .item {
+    position: relative;
+    z-index: 10;
+  }
 }
 .lable {
   position: absolute;

@@ -37,6 +37,8 @@
   font-style: normal;
   display: block;
 }
-.footer-contacts .item:not(:last-child) {
-  padding-bottom: 9px;
+.footer-contacts {
+  .item:not(:last-child) {
+    padding-bottom: 9px;
+  }
 }
