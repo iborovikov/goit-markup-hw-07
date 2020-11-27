@@ -10,9 +10,9 @@
 .order-btn {
   font-weight: 700;
   line-height: 1.875;
-  background-color: var(--accent-cl);
+  background-color: $accent-cl;
   letter-spacing: 0.06em;
-  color: var(--white);
+  color: $white;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 32px;
@@ -31,8 +31,8 @@
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: inherit;
-  color: var(--black);
-  background: var(--lite-bg);
+  color: $black;
+  background: $lite-bg;
   max-width: 500px;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -43,6 +43,6 @@
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: var(--white);
-  background-color: var(--accent-cl);
+  color: $white;
+  background-color: $accent-cl;
 }

@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   height: 252px;
-  background-color: var(--dark-bg);
+  background-color: $dark-bg;
 }
 .footer-container {
   position: relative;
@@ -10,13 +10,13 @@
 }
 .footer-logo {
   display: block;
-  color: var(--white);
+  color: $white;
   margin-bottom: 20px;
 }
 .adress {
   display: block;
   padding-bottom: 9px;
-  color: var(--white);
+  color: $white;
   font-style: normal;
 }
 .connect {
@@ -25,7 +25,7 @@
   line-height: 1.142;
   text-transform: uppercase;
   text-align: left;
-  color: var(--white);
+  color: $white;
 }
 .footer-contacts-links {
   font-weight: 400;

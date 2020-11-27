@@ -5,7 +5,7 @@
   font-size: 14px;
   line-height: 1.25;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
   text-align: start;
 }
 .subscride-form {
@@ -29,12 +29,12 @@
   padding-right: 28px;
   display: flex;
   align-items: center;
-  background-color: var(--accent-cl);
+  background-color: $accent-cl;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--white);
+  color: $white;
 }
 .subscribe-container input {
   position: absolute;
@@ -55,6 +55,6 @@
 }
 
 .icon-send {
-  fill: var(--white);
+  fill: $white;
   margin-left: 10px;
 }

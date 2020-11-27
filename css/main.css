@@ -30,17 +30,6 @@
   src: local("Roboto Black"), local("Roboto-Black"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.ttf") format("truetype"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.svg#Roboto") format("svg");
 }
 
-:root {
-  --main-text-cl: #757575;
-  --accent-cl: #2196f3;
-  --black: #212121;
-  --white: #ffffff;
-  --dark-bg: #2f303a;
-  --lite-bg: #f5f4fa;
-  --hero-bg: #c4c4c4;
-  --icon-cl: #afb1b8;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -73,7 +62,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: #757575;
 }
 
 textarea {
@@ -97,7 +86,7 @@ textarea {
 }
 
 .menu .link {
-  color: var(--black);
+  color: #212121;
 }
 
 .link {
@@ -107,7 +96,7 @@ textarea {
 
 .link:hover,
 .link:focus {
-  color: var(--accent-cl);
+  color: #2196f3;
 }
 
 .list {
@@ -119,7 +108,7 @@ textarea {
 
 .title {
   font-weight: 700;
-  color: var(--black);
+  color: #212121;
   text-align: center;
 }
 
@@ -144,7 +133,7 @@ textarea {
 }
 
 .logo__part {
-  color: var(--accent-cl);
+  color: #2196f3;
 }
 
 .btn {
@@ -160,9 +149,9 @@ textarea {
 .order-btn {
   font-weight: 700;
   line-height: 1.875;
-  background-color: var(--accent-cl);
+  background-color: #2196f3;
   letter-spacing: 0.06em;
-  color: var(--white);
+  color: #ffffff;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 32px;
@@ -184,8 +173,8 @@ textarea {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: inherit;
-  color: var(--black);
-  background: var(--lite-bg);
+  color: #212121;
+  background: #f5f4fa;
   max-width: 500px;
   padding-top: 6px;
   padding-bottom: 6px;
@@ -196,8 +185,8 @@ textarea {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: var(--white);
-  background-color: var(--accent-cl);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .backdrop {
@@ -222,7 +211,7 @@ textarea {
   transform: translate(-50%, -50%);
   width: 528px;
   padding: 40px;
-  background: var(--white);
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   text-align: center;
@@ -239,17 +228,17 @@ textarea {
   justify-content: center;
   padding: 0px;
   border-radius: 50%;
-  background: var(--white);
+  background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .vector {
-  fill: var(--black);
+  fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover .vector {
-  fill: var(--accent-cl);
+  fill: #2196f3;
 }
 
 .order-container .input {
@@ -307,17 +296,17 @@ textarea {
 }
 
 .order-item:focus-within .input-icon {
-  fill: var(--accent-cl);
+  fill: #2196f3;
 }
 
 .order-item:focus-within .input {
   outline-style: none;
-  border: 1px solid var(--accent-cl);
+  border: 1px solid #2196f3;
 }
 
 .rules-link {
   text-decoration-line: underline;
-  color: var(--accent-cl);
+  color: #2196f3;
 }
 
 .rules-accept-container {
@@ -349,7 +338,7 @@ textarea {
 }
 
 .original-chekbox:checked + .checkbox-icon {
-  background-color: var(--accent-cl);
+  background-color: #2196f3;
   background-image: url(../images/checked.svg);
   border-radius: 4px;
 }
@@ -360,8 +349,8 @@ textarea {
   height: 50px;
   margin-right: auto;
   margin-left: auto;
-  background-color: var(--accent-cl);
-  color: var(--white);
+  background-color: #2196f3;
+  color: #ffffff;
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
@@ -377,13 +366,13 @@ textarea {
 }
 
 .social-icon {
-  fill: var(--icon-cl);
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon:hover,
 .social-icon:focus {
-  fill: var(--white);
+  fill: #ffffff;
 }
 
 .social-link {
@@ -398,12 +387,12 @@ textarea {
 
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
-  fill: var(--white);
+  fill: #ffffff;
 }
 
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-cl);
+  background-color: #2196f3;
 }
 
 .social-link {
@@ -426,7 +415,7 @@ textarea {
 }
 
 .social-icon.footer-social-icon {
-  fill: var(--white);
+  fill: #ffffff;
 }
 
 .social-item .gray-bg {
@@ -436,7 +425,7 @@ textarea {
 
 .social-item .gray-bg:hover,
 .social-item .gray-bg:focus {
-  background-color: var(--accent-cl);
+  background-color: #2196f3;
 }
 
 .subscribe-title {
@@ -446,7 +435,7 @@ textarea {
   font-size: 14px;
   line-height: 1.25;
   text-transform: uppercase;
-  color: var(--white);
+  color: #ffffff;
   text-align: start;
 }
 
@@ -473,12 +462,12 @@ textarea {
   padding-right: 28px;
   display: flex;
   align-items: center;
-  background-color: var(--accent-cl);
+  background-color: #2196f3;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .subscribe-container input {
@@ -499,14 +488,14 @@ textarea {
 }
 
 .icon-send {
-  fill: var(--white);
+  fill: #ffffff;
   margin-left: 10px;
 }
 
 .hero-section {
   height: 600px;
   text-align: center;
-  background-color: var(--hero-bg);
+  background-color: #c4c4c4;
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -524,7 +513,7 @@ textarea {
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .benefits-section {
@@ -548,7 +537,7 @@ textarea {
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--lite-bg);
+  background-color: #f5f4fa;
 }
 
 .benefits-list .antena-icon:before {
@@ -606,13 +595,13 @@ textarea {
   line-height: 1.142;
   text-align: center;
   text-transform: uppercase;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .team-section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--lite-bg);
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -623,7 +612,7 @@ textarea {
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--white);
+  background-color: #ffffff;
 }
 
 .members-list .item:not(:last-child) {
@@ -659,7 +648,7 @@ textarea {
 }
 
 .clients-icon {
-  fill: var(--icon-cl);
+  fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -669,19 +658,19 @@ textarea {
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--icon-cl);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover .clients-icon,
 .client-link:focus .clients-icon {
-  fill: var(--accent-cl);
+  fill: #2196f3;
 }
 
 .client-link:hover,
 .client-link:focus {
-  border: 1px solid var(--accent-cl);
+  border: 1px solid #2196f3;
 }
 
 .clients-item:not(:last-child) {
@@ -692,7 +681,7 @@ textarea {
   padding-top: 60px;
   padding-bottom: 60px;
   height: 252px;
-  background-color: var(--dark-bg);
+  background-color: #2f303a;
 }
 
 .footer-container {
@@ -702,14 +691,14 @@ textarea {
 
 .footer-logo {
   display: block;
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
 .adress {
   display: block;
   padding-bottom: 9px;
-  color: var(--white);
+  color: #ffffff;
   font-style: normal;
 }
 
@@ -719,7 +708,7 @@ textarea {
   line-height: 1.142;
   text-transform: uppercase;
   text-align: left;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .footer-contacts-links {
@@ -762,7 +751,7 @@ textarea {
 }
 
 .link.active-page {
-  color: var(--accent-cl);
+  color: #2196f3;
 }
 
 .active-page::after {
@@ -774,7 +763,7 @@ textarea {
   height: 4px;
   width: 100%;
   border-radius: 2px;
-  background-color: var(--accent-cl);
+  background-color: #2196f3;
 }
 
 .contacts-container {

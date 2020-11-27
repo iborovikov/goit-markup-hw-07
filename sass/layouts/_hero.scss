@@ -1,7 +1,7 @@
 .hero-section {
   height: 600px;
   text-align: center;
-  background-color: var(--hero-bg);
+  background-color: $hero-bg;
   background-image: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
@@ -22,5 +22,5 @@
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white);
+  color: $white;
 }

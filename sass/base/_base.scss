@@ -26,7 +26,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  color: $main-text-cl;
 }
 textarea {
   resize: none;
@@ -47,7 +47,7 @@ textarea {
   color: inherit;
 }
 .menu .link {
-  color: var(--black);
+  color: $black;
 }
 .link {
   color: inherit;
@@ -55,7 +55,7 @@ textarea {
 }
 .link:hover,
 .link:focus {
-  color: var(--accent-cl);
+  color: $accent-cl;
 }
 .list {
   display: flex;
@@ -65,7 +65,7 @@ textarea {
 }
 .title {
   font-weight: 700;
-  color: var(--black);
+  color: $black;
   text-align: center;
 }
 .section-title {
@@ -86,5 +86,5 @@ textarea {
   text-decoration: none;
 }
 .logo__part {
-  color: var(--accent-cl);
+  color: $accent-cl;
 }

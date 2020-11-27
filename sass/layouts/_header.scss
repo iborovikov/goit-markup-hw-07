@@ -18,7 +18,7 @@
   margin-right: 50px;
 }
 .link.active-page {
-  color: var(--accent-cl);
+  color: $accent-cl;
 }
 .active-page::after {
   content: '';
@@ -29,7 +29,7 @@
   height: 4px;
   width: 100%;
   border-radius: 2px;
-  background-color: var(--accent-cl);
+  background-color: $accent-cl;
 }
 .contacts-container {
   margin-right: 70px;
